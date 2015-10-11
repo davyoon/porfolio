@@ -202,8 +202,11 @@ h2{
 		letter-spacing: 6px;
 		margin-top: 20px;
 	}
-	.header{
-		font-size: 9px;
+	#header{
+		font-size: 10px;
+	}
+	.nav-list{
+		padding: 15px 8px 15px 8px;
 	}
 }
 
