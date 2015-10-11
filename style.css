@@ -1,0 +1,230 @@
+.pic{
+	height: 750px;
+}
+
+.name-title{
+	color: white;
+	text-align: center;
+	padding-top: 200px;
+	font-family: 'Oxygen', sans-serif;
+	letter-spacing: 7px;
+}
+
+.name{
+	font-size: 40px;
+}
+
+.pipes{
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+.row{
+	margin: auto;
+}
+
+#header{
+	font-size: 12px;
+	color: white;
+	position: fixed;
+	text-align: right;
+	background-color: rgba(0,0,0,0.7);
+	height: 55px;
+	padding-top: 4px;
+	z-index: 1;
+}
+
+.nav-list{
+	display: inline-block;
+	padding: 15px 12px 15px 12px;
+	transition: background-color 1s linear;
+	text-decoration: none;
+}
+
+.nav-list:hover{
+	background-color: rgba(24,202,230,1);
+}
+
+.navigator{
+	color: white;
+}
+
+.navigator:hover{
+	text-decoration: none;
+}
+
+.navigator:focus{
+	text-decoration: none;
+}
+
+.navigator:visited{
+	text-decoration: none;
+}
+
+#about{
+	height: 750px;
+	padding-top: 80px;
+}
+
+.profile-pic{
+	background-image: url("./img/profile.jpg");
+	background-size: cover;
+	width: 50%;
+	float: left;
+	height: 500px;
+	clip-path: polygon(0 0, 55% 0, 75%);
+	shape-outside: polygon(0 0, 55% 0, 75%);
+}
+
+.profile-text{
+	font-size: 20px;
+	line-height: 30px;
+	letter-spacing: 5px;
+}
+
+#projects{
+	color: white;
+	min-height: 750px;
+	padding-top: 80px;
+	background-color: black;
+}
+
+#skills{
+	min-height: 550px;
+	padding-top: 80px;
+}
+
+#contacts{
+	min-height: 300px;
+	background-color: black;
+	padding-top: 40px;
+	color: white;
+}
+
+.title{
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Poiret One', cursive;
+	margin-bottom: 30px;
+}
+
+.project-container{
+		margin-right: 15px;
+		margin-left: 15px;
+		padding-bottom: 40px;
+	}
+
+.project{
+	margin-bottom: 20px;
+	background-color: rgba(250,250,250,0.1);
+	box-shadow: 0px 0px 20px white;
+}
+
+.project:hover{
+	box-shadow: 0px 0px 20px rgba(24,202,230,1);
+	color: white;
+}
+
+.project-link:hover{
+	text-decoration: none;
+}
+
+.project-link:visited{
+	text-decoration: none;
+	color: white;
+}
+
+.project-link:focus{
+	text-decoration: none;
+	color: white;
+}
+
+@media(min-width: 750px){
+	.project-container{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.project{
+		flex: 0 1 49%;
+		border-radius: 2%;
+	}
+
+}
+
+h2{
+	text-align: center;
+	color: white;
+}
+
+.text{
+	text-indent: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: justify;
+}
+
+.skill-container{
+	margin-bottom: 70px;
+	text-align: center;
+}
+
+.skill{
+	font-size: 100px;
+}
+
+@media(max-width: 650px){
+	.skill{
+		font-size: 100px;
+	}
+}
+
+.img-responsive{
+	border-radius: 2% 2% 0% 0%; 
+}
+
+.contact-container{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.contact{
+	font-size: 130px;
+}
+
+@media(max-width: 650px){
+	.contact{
+		font-size: 100px;
+	}
+	.pipes{
+		font-size: 15px;
+		letter-spacing: 6px;
+		margin-top: 20px;
+	}
+}
+
+.contact-hover{
+	text-decoration: none;
+	color: white;
+}
+
+.contact-hover:hover{
+	text-decoration: none;
+}
+
+.contact-hover:visited{
+	text-decoration: none;
+	color: white;
+}
+
+.contact-hover:focus{
+	text-decoration: none;
+	color: white;
+}
+
+.email-container{
+	text-align: center;
+	font-size: 20px;
+	padding-bottom: 20px;
+} 
