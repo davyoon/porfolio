@@ -62,24 +62,31 @@
 }
 
 #about{
-	height: 750px;
 	padding-top: 80px;
+	min-height: 550px;
 }
 
-.profile-pic{
-	background-image: url("./img/profile.jpg");
+/*.profile-pic{
+	background-image: url("./img/headshot.jpg");
 	background-size: cover;
+	height: 500px;
+	padding-bottom: 300px;
 	width: 50%;
 	float: left;
 	height: 500px;
 	clip-path: polygon(0 0, 55% 0, 75%);
 	shape-outside: polygon(0 0, 55% 0, 75%);
+}*/
+
+.profile-pic{
+	margin-bottom: 20px;
 }
 
 .profile-text{
 	font-size: 20px;
-	line-height: 30px;
-	letter-spacing: 5px;
+	line-height: 40px;
+	letter-spacing: 7px;
+	text-indent: 40px;
 }
 
 #projects{
@@ -144,22 +151,6 @@
 	color: white;
 }
 
-@media(min-width: 750px){
-	.project-container{
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-		margin-right: 55px;
-		margin-left: 55px;
-	}
-	.project{
-		flex: 0 2 48%;
-	}
-	
-	.password{
-		margin-top: 30px;
-	}
-}
 
 h2{
 	text-align: center;
@@ -185,12 +176,6 @@ h2{
 	font-size: 100px;
 }
 
-@media(max-width: 650px){
-	.skill{
-		font-size: 100px;
-	}
-}
-
 .img-responsive{
 	border-radius: 2% 2% 0% 0%; 
 }
@@ -204,11 +189,32 @@ h2{
 	font-size: 130px;
 }
 
+@media(min-width: 750px){
+	.project-container{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin-right: 55px;
+		margin-left: 55px;
+	}
+	.project{
+		flex: 0 2 48%;
+	}
+	
+	.password{
+		margin-top: 30px;
+	}
+}
 
 @media(max-width: 650px){
 	.contact{
 		font-size: 100px;
 	}
+
+	.skill{
+		font-size: 100px;
+	}
+
 	.pipes{
 		font-size: 15px;
 		letter-spacing: 6px;
@@ -227,6 +233,12 @@ h2{
 
 	.project-container{
 		padding-bottom: 1px;
+	}
+
+	.profile-text{
+		font-size: 12px;
+		line-height: 30px;
+		letter-spacing: 5px;
 	}
 }
 
