@@ -10,6 +10,13 @@
 	letter-spacing: 7px;
 }
 
+.test{
+	height: 300px;
+	width: 300px;
+	background-color: red;
+	margin-left: 600px;
+}
+
 .name{
 	font-size: 40px;
 }
