@@ -57,15 +57,10 @@
 
 .banner{
 	height: 750px;
-	background-color: blue;
+	background-image: url("./img/city.png");
 /*	background-position: center;
 	background-attachment: fixed;*/
-/*  background-size: cover;*/
-}
-
-.test1{
-	height: 500px;
-	background-color: yellow;
+ /* background-size: cover;*/
 }
 
 #about{
