@@ -46,14 +46,11 @@
 	padding: 15px 12px;
 	transition: background-color 1s linear;
 	text-decoration: none;
+	color: white;
 }
 
 .nav-list:hover{
 	background-color: rgba(24,202,230,1);
-}
-
-.navigator{
-	color: white;
 }
 
 .navigator:hover{
@@ -62,30 +59,13 @@
 
 .navigator:focus{
 	text-decoration: none;
-	color: white;
-}
-
-.navigator:visited{
-	text-decoration: none;
 }
 
 #about{
 	padding-top: 80px;
 	min-height: 550px;
-	perspective: 2700px;
+	perspective: 9700px;
 }
-
-/*.profile-pic{
-	background-image: url("./img/headshot.jpg");
-	background-size: cover;
-	height: 500px;
-	padding-bottom: 300px;
-	width: 50%;
-	float: left;
-	height: 500px;
-	clip-path: polygon(0 0, 55% 0, 75%);
-	shape-outside: polygon(0 0, 55% 0, 75%);
-}*/
 
 .profile-pic{
 	margin-bottom: 20px;
@@ -146,14 +126,14 @@
 
 .project{
 	margin-bottom: 50px;
-	background-color: rgba(250,250,250,0.1);
 	box-shadow: 0px 0px 20px white;
-	/*border: 3px solid white;*/
+	border-radius: 7px
 }
 
 .password{
 	text-align: center;
 	letter-spacing: 2px;
+	color: white;
 }
 
 .project:hover{
@@ -165,14 +145,8 @@
 	text-decoration: none;
 }
 
-.project-link:visited{
-	text-decoration: none;
-	color: white;
-}
-
 .project-link:focus{
 	text-decoration: none;
-	color: white;
 }
 
 
@@ -189,6 +163,7 @@ h2{
 	padding-left: 10px;
 	padding-right: 10px;
 	text-align: justify;
+	color: white;
 }
 
 .skill-container{
@@ -275,14 +250,8 @@ h2{
 	text-decoration: none;
 }
 
-.contact-hover:visited{
-	text-decoration: none;
-	color: white;
-}
-
 .contact-hover:focus{
 	text-decoration: none;
-	color: white;
 }
 
 .email-container{
