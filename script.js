@@ -25,9 +25,12 @@ $(function(){
     $(this).css('color', 'white')
   });
 
+  var config = {
+    wait: '0.3s',
+    mobile: true
+  }
 
-
-  window.sr = new scrollReveal();
+  window.sr = new scrollReveal(config);
 
 
 
