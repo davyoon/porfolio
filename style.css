@@ -57,7 +57,7 @@
 
 .banner{
 	min-height: 750px;
-	background-image: url("img/city.png");
+	background-image: url("./img/city.png");
 	background-position: center;
 	background-attachment: fixed;
   background-size: cover;
