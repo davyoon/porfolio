@@ -1,20 +1,9 @@
-.pic{
-	height: 750px;
-}
-
 .name-title{
 	color: white;
 	text-align: center;
 	padding-top: 200px;
 	font-family: 'Oxygen', sans-serif;
 	letter-spacing: 7px;
-}
-
-.test{
-	height: 300px;
-	width: 300px;
-	background-color: red;
-	margin-left: 600px;
 }
 
 .name{
@@ -59,6 +48,14 @@
 
 .navigator:focus{
 	text-decoration: none;
+}
+
+.banner{
+	min-height: 750px;
+	background-image: url("img/city.png");
+	background-position: center;
+	background-attachment: fixed;
+  background-size: cover;
 }
 
 #about{
