@@ -57,10 +57,15 @@
 
 .banner{
 	min-height: 750px;
-	background-color: red;
+	background-color: blue;
 /*	background-position: center;
 	background-attachment: fixed;*/
 /*  background-size: cover;*/
+}
+
+.test1{
+	height: 500px;
+	background-color: red;
 }
 
 #about{
