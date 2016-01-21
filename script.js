@@ -15,6 +15,9 @@ $(function(){
 
   });
 
+  function toggleNav(){
+    $('.hamburger-nav').toggle();
+  };
 
   $('.contact-hover').mouseover(function(){
     $(this).css('color', 'rgba(24,202,230,1)')   
@@ -24,6 +27,11 @@ $(function(){
   $('.contact-hover').mouseout(function(){
     $(this).css('color', 'white')
   });
+
+  $('.hamburger').on('click', toggleNav);
+
+  $('.hamburger-nav-list').on('click', toggleNav);
+
 
   var config = {
     wait: '0.3s',

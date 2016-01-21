@@ -33,7 +33,7 @@
 .nav-list{
 	display: inline-block;
 	padding: 15px 12px;
-	transition: background-color 1s linear;
+	transition: background-color .5s linear;
 	text-decoration: none;
 	color: white;
 }
@@ -46,7 +46,31 @@
 	text-decoration: none;
 }
 
-.navigator:focus{
+.hamburger-nav{
+	background-color: rgba(0, 0, 0, 0.9);
+	position: fixed;
+	top: 55px;
+	display: none;
+	z-index: 1;
+}
+
+#hamburger-list{
+	margin-bottom: 0px;
+}
+
+.hamburger-nav-list{
+	line-height: 50px;
+	text-decoration: none;
+	display: block;
+	height: 50px;
+	margin: 0px -13px 0px -53px;
+	text-align: center;
+	color: white;
+	transition: background-color .2s linear;
+}
+
+.hamburger-nav-list:hover{
+	background-color: rgba(24,202,230,1);
 	text-decoration: none;
 }
 
@@ -56,6 +80,18 @@
 	background-position: center;
 	background-attachment: fixed;
   background-size: cover;
+}
+
+.hamburger{
+  background:none;
+ 	margin: -8px -5px;
+  padding:0px 10px 0px 10px;
+  color: white;
+  border:0;
+  font-size: 30px;
+  cursor:pointer;
+  outline:none;
+  display: none;
 }
 
 #about{
@@ -216,11 +252,13 @@ h2{
 		letter-spacing: 6px;
 		margin-top: 20px;
 	}
-	#header{
-		font-size: 10px;
-	}
+
 	.nav-list{
-		padding: 15px 8px 15px 8px;
+		display: none;
+	}
+
+	.hamburger{
+		display: inline-block;
 	}
 
 	.text{
