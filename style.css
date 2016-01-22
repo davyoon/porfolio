@@ -24,7 +24,7 @@
 	color: white;
 	position: fixed;
 	text-align: right;
-	background-color: rgba(0,0,0,0.7);
+	background-color: rgba(0,0,0,0.9);
 	height: 55px;
 	padding-top: 4px;
 	z-index: 1;
@@ -40,10 +40,6 @@
 
 .nav-list:hover{
 	background-color: rgba(24,202,230,1);
-}
-
-.navigator:hover{
-	text-decoration: none;
 }
 
 .hamburger-nav{
@@ -63,7 +59,7 @@
 	text-decoration: none;
 	display: block;
 	height: 50px;
-	margin: 0px -13px 0px -53px;
+	margin: 0px -15px 0px -55px;
 	text-align: center;
 	color: white;
 	transition: background-color .2s linear;
@@ -71,6 +67,11 @@
 
 .hamburger-nav-list:hover{
 	background-color: rgba(24,202,230,1);
+	text-decoration: none;
+	color: white;
+}
+
+.hamburger-nav-list:focus{
 	text-decoration: none;
 }
 
@@ -236,6 +237,7 @@ h2{
 	.password{
 		margin-top: 30px;
 	}
+
 }
 
 @media(max-width: 650px){

@@ -16,7 +16,7 @@ $(function(){
   });
 
   function toggleNav(){
-    $('.hamburger-nav').toggle();
+    $('.hamburger-nav').slideToggle();
   };
 
   $('.contact-hover').mouseover(function(){
@@ -33,13 +33,13 @@ $(function(){
   $('.hamburger-nav-list').on('click', toggleNav);
 
 
+
   var config = {
     wait: '0.3s',
     mobile: true
   }
 
   window.sr = new scrollReveal(config);
-
 
 
 
