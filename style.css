@@ -216,6 +216,9 @@ h2{
 
 .img-responsive{
 	border-radius: 2% 2% 0% 0%; 
+}
+
+.project-img{
 	display: flex;
 	width: 100%;
 }
