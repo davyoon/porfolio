@@ -37,8 +37,8 @@
 	text-decoration: none;
 	color: white;
 }
-
-#header a:focus { 
+ 
+a:focus { 
 	outline: 0; 
 }
 
