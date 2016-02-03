@@ -38,6 +38,10 @@
 	color: white;
 }
 
+#header a:focus { 
+	outline: 0; 
+}
+
 .nav-list:hover{
 	background-color: rgba(24,202,230,1);
 }
@@ -55,6 +59,7 @@
 }
 
 .hamburger-nav-list{
+	list-style: none;
 	line-height: 50px;
 	text-decoration: none;
 	display: block;
@@ -211,6 +216,8 @@ h2{
 
 .img-responsive{
 	border-radius: 2% 2% 0% 0%; 
+	display: flex;
+	width: 100%;
 }
 
 .contact-container{
