@@ -221,6 +221,11 @@ h2{
 	border-radius: 2% 2% 0% 0%; 
 }
 
+.project-img{
+	display: flex;
+	width: 100%;
+}
+
 .project{
 	display: flex;
 	width: 100%;
