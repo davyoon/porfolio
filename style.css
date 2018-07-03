@@ -210,7 +210,7 @@ a:focus {
 	background-color:#ffffff;
 
 }
-.project-container .description .text{
+.project-container .description .text,.project-container .description .password{
 	color:#000000;
 }
 
