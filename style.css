@@ -37,6 +37,7 @@
 	text-decoration: none;
 	color: white;
 }
+
  
 a:focus { 
 	outline: 0; 
@@ -103,6 +104,8 @@ a:focus {
 #about{
 	padding-top: 80px;
 	min-height: 550px;
+	color:#ffffff;
+	background-color:#000000;
 
 }
 
@@ -127,6 +130,27 @@ a:focus {
 .by{
 	font-style: italic;
 	text-align: right;
+}
+
+#work{
+	min-height: 750px;
+	padding-top: 80px;
+}
+
+#work .col-md-6{
+	margin-bottom: 50px;
+}
+
+#work img{
+	box-shadow:1px 1px 20px;
+}
+
+#work img:hover{
+	opacity:.7;
+}
+
+#work a{
+	color:#000000;
 }
 
 #projects{
@@ -163,7 +187,7 @@ a:focus {
 
 .project{
 	margin-bottom: 50px;
-	box-shadow: 0px 0px 20px white;
+	box-shadow: 1px 1px 20px;
 	border-radius: 7px
 }
 
@@ -179,8 +203,15 @@ a:focus {
 }
 
 .project:hover{
-	box-shadow: 0px 0px 30px rgba(24,202,230,1);
-	color: white;
+	opacity:.7;
+}
+
+.project-container .project{
+	background-color:#ffffff;
+
+}
+.project-container .description .text{
+	color:#000000;
 }
 
 .project-link:hover{
@@ -218,7 +249,7 @@ h2{
 }
 
 .img-responsive{
-	border-radius: 2% 2% 0% 0%; 
+	/* border-radius: 2% 2% 0% 0%; */
 }
 
 .project-img{
