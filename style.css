@@ -264,6 +264,10 @@ h2{
 	width: 100%;
 }
 
+.project h2{
+	color:#000000;
+}
+
 .banner2{
 	height:500px;
 	background-image: url("./img/background2.png");
