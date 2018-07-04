@@ -104,8 +104,6 @@ a:focus {
 #about{
 	padding-top: 80px;
 	min-height: 550px;
-	color:#ffffff;
-	background-color:#000000;
 
 }
 
@@ -151,6 +149,10 @@ a:focus {
 
 #work a{
 	color:#000000;
+}
+
+@media screen and (max-width:991px){
+	#work img{width:100%};
 }
 
 #projects{
@@ -260,6 +262,14 @@ h2{
 .project{
 	display: flex;
 	width: 100%;
+}
+
+.banner2{
+	height:500px;
+	background-image: url("./img/background2.png");
+	background-position: center;
+	background-attachment: fixed;
+  	background-size: cover;
 }
 
 .contact-container{
