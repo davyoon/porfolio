@@ -104,7 +104,8 @@ a:focus {
 #about{
 	padding-top: 80px;
 	min-height: 550px;
-
+	background-color: #ffffff;
+	color: #000000;
 }
 
 .profile-pic{
@@ -166,6 +167,8 @@ a:focus {
 	min-height: 550px;
 	padding-top: 80px;
 	overflow: hidden;
+	background-color: #ffffff;
+	color: #000000;
 }
 
 #contacts{
@@ -191,6 +194,10 @@ a:focus {
 	margin-bottom: 50px;
 	box-shadow: 1px 1px 20px;
 	border-radius: 7px
+}
+
+.project img{
+	height: 375px;
 }
 
 .description{
